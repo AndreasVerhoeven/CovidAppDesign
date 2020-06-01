@@ -10,9 +10,34 @@
 		496B978524842907003613FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B978424842907003613FA /* AppDelegate.swift */; };
 		496B978724842907003613FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B978624842907003613FA /* SceneDelegate.swift */; };
 		496B978924842907003613FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B978824842907003613FA /* ViewController.swift */; };
-		496B978C24842907003613FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496B978A24842907003613FA /* Main.storyboard */; };
 		496B978E24842908003613FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496B978D24842908003613FA /* Assets.xcassets */; };
 		496B979124842908003613FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496B978F24842908003613FA /* LaunchScreen.storyboard */; };
+		496B979A24842932003613FA /* RoundRectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B979924842932003613FA /* RoundRectButton.swift */; };
+		496B979C24843814003613FA /* NSAttributedString+SimpleMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B979B24843814003613FA /* NSAttributedString+SimpleMarkdown.swift */; };
+		496B979F24843FFF003613FA /* OnboardingIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B979E24843FFF003613FA /* OnboardingIntroViewController.swift */; };
+		496B97A1248441B3003613FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 496B97A0248441B3003613FA /* Localizable.strings */; };
+		496B97A324844544003613FA /* OnboardingIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97A224844544003613FA /* OnboardingIntroView.swift */; };
+		496B97A524844647003613FA /* OnboardingExplanationBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97A424844647003613FA /* OnboardingExplanationBluetoothViewController.swift */; };
+		496B97A724844828003613FA /* OnboardingExplanationNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97A624844828003613FA /* OnboardingExplanationNotificationViewController.swift */; };
+		496B97A924844EAC003613FA /* OverflowScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97A824844EAC003613FA /* OverflowScrollView.swift */; };
+		496B97AE24847203003613FA /* TracingPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97AD24847203003613FA /* TracingPermissionViewController.swift */; };
+		496B97B0248472F0003613FA /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97AF248472F0003613FA /* UIView+Helper.swift */; };
+		496B97B22485046D003613FA /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97B12485046D003613FA /* Font.swift */; };
+		496B97B424850E39003613FA /* BluetoothPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97B324850E39003613FA /* BluetoothPermissionViewController.swift */; };
+		496B97B724851103003613FA /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97B624851103003613FA /* StatusViewController.swift */; };
+		496B97B92485111B003613FA /* UIWindow+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97B82485111B003613FA /* UIWindow+Helper.swift */; };
+		496B97BB2485114E003613FA /* UIKit+CrossDisolveAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97BA2485114E003613FA /* UIKit+CrossDisolveAnimations.swift */; };
+		496B97BD24851289003613FA /* UITableView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97BC24851289003613FA /* UITableView+Helper.swift */; };
+		496B97BF24851692003613FA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97BE24851692003613FA /* GradientView.swift */; };
+		496B97C324851E7E003613FA /* ThemedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97C224851E7E003613FA /* ThemedNavigationController.swift */; };
+		496B97C5248539F3003613FA /* CustomTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97C4248539F3003613FA /* CustomTableViewHeader.swift */; };
+		496B97C724853B15003613FA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97C624853B15003613FA /* CircleView.swift */; };
+		496B97C92485519B003613FA /* StatusHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97C82485519B003613FA /* StatusHeaderView.swift */; };
+		496B97CB24857D29003613FA /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97CA24857D29003613FA /* UIImage+Helper.swift */; };
+		496B97CD248582DF003613FA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97CC248582DF003613FA /* Color.swift */; };
+		496B97CF24858A1F003613FA /* UIStackView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97CE24858A1F003613FA /* UIStackView+Helper.swift */; };
+		496B97D124858A7C003613FA /* UILabel+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97D024858A7C003613FA /* UILabel+Helper.swift */; };
+		496B97D32485A759003613FA /* StatusNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97D22485A759003613FA /* StatusNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +45,35 @@
 		496B978424842907003613FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		496B978624842907003613FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		496B978824842907003613FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		496B978B24842907003613FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		496B978D24842908003613FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496B979024842908003613FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		496B979224842908003613FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496B979924842932003613FA /* RoundRectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectButton.swift; sourceTree = "<group>"; };
+		496B979B24843814003613FA /* NSAttributedString+SimpleMarkdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+SimpleMarkdown.swift"; sourceTree = "<group>"; };
+		496B979E24843FFF003613FA /* OnboardingIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingIntroViewController.swift; sourceTree = "<group>"; };
+		496B97A0248441B3003613FA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = CovidDesign/Localizable.strings; sourceTree = "<group>"; };
+		496B97A224844544003613FA /* OnboardingIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingIntroView.swift; sourceTree = "<group>"; };
+		496B97A424844647003613FA /* OnboardingExplanationBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingExplanationBluetoothViewController.swift; sourceTree = "<group>"; };
+		496B97A624844828003613FA /* OnboardingExplanationNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingExplanationNotificationViewController.swift; sourceTree = "<group>"; };
+		496B97A824844EAC003613FA /* OverflowScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverflowScrollView.swift; sourceTree = "<group>"; };
+		496B97AD24847203003613FA /* TracingPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracingPermissionViewController.swift; sourceTree = "<group>"; };
+		496B97AF248472F0003613FA /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		496B97B12485046D003613FA /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		496B97B324850E39003613FA /* BluetoothPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionViewController.swift; sourceTree = "<group>"; };
+		496B97B624851103003613FA /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		496B97B82485111B003613FA /* UIWindow+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Helper.swift"; sourceTree = "<group>"; };
+		496B97BA2485114E003613FA /* UIKit+CrossDisolveAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+CrossDisolveAnimations.swift"; sourceTree = "<group>"; };
+		496B97BC24851289003613FA /* UITableView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Helper.swift"; sourceTree = "<group>"; };
+		496B97BE24851692003613FA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		496B97C224851E7E003613FA /* ThemedNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedNavigationController.swift; sourceTree = "<group>"; };
+		496B97C4248539F3003613FA /* CustomTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewHeader.swift; sourceTree = "<group>"; };
+		496B97C624853B15003613FA /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		496B97C82485519B003613FA /* StatusHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusHeaderView.swift; sourceTree = "<group>"; };
+		496B97CA24857D29003613FA /* UIImage+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helper.swift"; sourceTree = "<group>"; };
+		496B97CC248582DF003613FA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		496B97CE24858A1F003613FA /* UIStackView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Helper.swift"; sourceTree = "<group>"; };
+		496B97D024858A7C003613FA /* UILabel+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Helper.swift"; sourceTree = "<group>"; };
+		496B97D22485A759003613FA /* StatusNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +90,7 @@
 		496B977824842907003613FA = {
 			isa = PBXGroup;
 			children = (
+				496B97A0248441B3003613FA /* Localizable.strings */,
 				496B978324842907003613FA /* CovidDesign */,
 				496B978224842907003613FA /* Products */,
 			);
@@ -56,15 +107,71 @@
 		496B978324842907003613FA /* CovidDesign */ = {
 			isa = PBXGroup;
 			children = (
+				496B97B5248510F4003613FA /* Status */,
+				496B979D24843FDE003613FA /* Onboarding */,
+				496B97AC248471EE003613FA /* Permission */,
+				496B979824842911003613FA /* Helper */,
 				496B978424842907003613FA /* AppDelegate.swift */,
 				496B978624842907003613FA /* SceneDelegate.swift */,
 				496B978824842907003613FA /* ViewController.swift */,
-				496B978A24842907003613FA /* Main.storyboard */,
 				496B978D24842908003613FA /* Assets.xcassets */,
 				496B978F24842908003613FA /* LaunchScreen.storyboard */,
 				496B979224842908003613FA /* Info.plist */,
 			);
 			path = CovidDesign;
+			sourceTree = "<group>";
+		};
+		496B979824842911003613FA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				496B97B12485046D003613FA /* Font.swift */,
+				496B97CC248582DF003613FA /* Color.swift */,
+				496B97A824844EAC003613FA /* OverflowScrollView.swift */,
+				496B979924842932003613FA /* RoundRectButton.swift */,
+				496B979B24843814003613FA /* NSAttributedString+SimpleMarkdown.swift */,
+				496B97AF248472F0003613FA /* UIView+Helper.swift */,
+				496B97B82485111B003613FA /* UIWindow+Helper.swift */,
+				496B97BA2485114E003613FA /* UIKit+CrossDisolveAnimations.swift */,
+				496B97BC24851289003613FA /* UITableView+Helper.swift */,
+				496B97BE24851692003613FA /* GradientView.swift */,
+				496B97C224851E7E003613FA /* ThemedNavigationController.swift */,
+				496B97C4248539F3003613FA /* CustomTableViewHeader.swift */,
+				496B97C624853B15003613FA /* CircleView.swift */,
+				496B97CA24857D29003613FA /* UIImage+Helper.swift */,
+				496B97CE24858A1F003613FA /* UIStackView+Helper.swift */,
+				496B97D024858A7C003613FA /* UILabel+Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		496B979D24843FDE003613FA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				496B97A224844544003613FA /* OnboardingIntroView.swift */,
+				496B979E24843FFF003613FA /* OnboardingIntroViewController.swift */,
+				496B97A424844647003613FA /* OnboardingExplanationBluetoothViewController.swift */,
+				496B97A624844828003613FA /* OnboardingExplanationNotificationViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		496B97AC248471EE003613FA /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				496B97AD24847203003613FA /* TracingPermissionViewController.swift */,
+				496B97B324850E39003613FA /* BluetoothPermissionViewController.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		496B97B5248510F4003613FA /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				496B97B624851103003613FA /* StatusViewController.swift */,
+				496B97C82485519B003613FA /* StatusHeaderView.swift */,
+				496B97D22485A759003613FA /* StatusNavigationController.swift */,
+			);
+			path = Status;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				496B979124842908003613FA /* LaunchScreen.storyboard in Resources */,
+				496B97A1248441B3003613FA /* Localizable.strings in Resources */,
 				496B978E24842908003613FA /* Assets.xcassets in Resources */,
-				496B978C24842907003613FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +245,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496B97C324851E7E003613FA /* ThemedNavigationController.swift in Sources */,
 				496B978924842907003613FA /* ViewController.swift in Sources */,
+				496B97B424850E39003613FA /* BluetoothPermissionViewController.swift in Sources */,
+				496B97BF24851692003613FA /* GradientView.swift in Sources */,
+				496B97A524844647003613FA /* OnboardingExplanationBluetoothViewController.swift in Sources */,
+				496B97BD24851289003613FA /* UITableView+Helper.swift in Sources */,
+				496B97C724853B15003613FA /* CircleView.swift in Sources */,
+				496B97C5248539F3003613FA /* CustomTableViewHeader.swift in Sources */,
+				496B97BB2485114E003613FA /* UIKit+CrossDisolveAnimations.swift in Sources */,
+				496B97B22485046D003613FA /* Font.swift in Sources */,
+				496B97A324844544003613FA /* OnboardingIntroView.swift in Sources */,
 				496B978524842907003613FA /* AppDelegate.swift in Sources */,
+				496B97AE24847203003613FA /* TracingPermissionViewController.swift in Sources */,
+				496B97C92485519B003613FA /* StatusHeaderView.swift in Sources */,
+				496B979F24843FFF003613FA /* OnboardingIntroViewController.swift in Sources */,
+				496B97B724851103003613FA /* StatusViewController.swift in Sources */,
+				496B97A724844828003613FA /* OnboardingExplanationNotificationViewController.swift in Sources */,
+				496B979A24842932003613FA /* RoundRectButton.swift in Sources */,
+				496B97D32485A759003613FA /* StatusNavigationController.swift in Sources */,
+				496B97CD248582DF003613FA /* Color.swift in Sources */,
+				496B97CF24858A1F003613FA /* UIStackView+Helper.swift in Sources */,
+				496B97B0248472F0003613FA /* UIView+Helper.swift in Sources */,
+				496B97CB24857D29003613FA /* UIImage+Helper.swift in Sources */,
+				496B97B92485111B003613FA /* UIWindow+Helper.swift in Sources */,
+				496B979C24843814003613FA /* NSAttributedString+SimpleMarkdown.swift in Sources */,
+				496B97D124858A7C003613FA /* UILabel+Helper.swift in Sources */,
 				496B978724842907003613FA /* SceneDelegate.swift in Sources */,
+				496B97A924844EAC003613FA /* OverflowScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		496B978A24842907003613FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				496B978B24842907003613FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		496B978F24842908003613FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  CovidDesign
+
+  Created by Andreas Verhoeven on 31/05/2020.
+  Copyright © 2020 Andreas Verhoeven. All rights reserved.
+*/
+
+"button_next" = "Volgende";
+"button_maybe_later" = "Misschien later";
+"button_give_permission" = "Geef toestemming";
+
+// onboarding intro
+"onboarding_intro_markdown_title" = "*_Bescherm_ je vrienden, familie en de rest van Nederland*";
+"onboarding_intro_text" = "Deze app waarschuwt je wanneer je in de buurt bent geweest van iemand met het coronavirus. Zo kunnen we samen de verspreiding van het virus stoppen.";
+
+// onboarding explanation bluetooth
+"onboarding_explanation_bluetooth_markdown_title" = "*De app ziet via Bluetooth of je dicht bij iemand bent geweest*";
+"onboarding_explanation_bluetooth_text" = "Dit is helemaal anoniem. De app ziet niet waar je bent geweest en gebruikt weinig energie.";
+
+// onboarding explanation notification
+"onboarding_explanation_notification_markdown_title" = "*Je krijgt een melding _nadat_ je risico op besmetting hebt gelopen*";
+"onboarding_explanation_notification_text" = "Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die daarna positief is getest. Deze persoon moet wel de app gebruiken.";
+
+// tracing permission
+"tracing_permissions_markdown_title" = "*Geef toestemming om COVID-19 blootstelling bij te houden*";
+"tracing_permission_item_1" = "De app heeft via Bluetooth contact met telefoons in de buurt. Dit is  helemaal anoniem";
+"tracing_permission_item_2" = "Je naam en andere persoonsgegevens worden *niet* gebruikt of opgeslagen";
+"tracing_permission_item_3" = "Je locatiegegevens zoals GPS worden *niet* gebruikt of opgeslagen";
+
+// bluetooth permission
+"bluetooth_permission_markdown_title" = "Zet je Bluetooth aan om de app te gebruiken";
+"bluetooth_permission_text" = "Je Bluetooth staat uit. Daardoor kan de app niet zien of je bij anderen in de buurt bent geweest.";
+"bluetooth_enable_button" = "Zet Bluetooth aan";
+
+// status
+"status_active_title" = "De app is actief";
+"status_active_text" = "Je krijgt een bericht als je een besmettingsrisico hebt gelopen";
+
+"status_menu_self_test" = "Heb ik corona?";
+"status_menu_request_test" = "Vraag coronatest aan";
+"status_menu_how_does_it_work" = "Hoe werkt het";
+"status_menu_settings" = "Instellingen";
+"status_menu_about_header" = "Over de app";
