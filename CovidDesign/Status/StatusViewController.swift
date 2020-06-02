@@ -59,7 +59,7 @@ class StatusViewController: UITableViewController {
 		tableView.backgroundColor = .systemBackground
 		tableView.separatorColor = .systemBackground
 		tableView.register(CustomTableViewHeader.self, forHeaderFooterViewReuseIdentifier: "Header")
-		tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+		tableView.register(CustomCell.self, forCellReuseIdentifier: "Cell")
 
 		headerView = StatusHeaderView()
 		headerView.translatesAutoresizingMaskIntoConstraints = false

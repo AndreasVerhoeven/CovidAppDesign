@@ -38,6 +38,7 @@
 		496B97CF24858A1F003613FA /* UIStackView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97CE24858A1F003613FA /* UIStackView+Helper.swift */; };
 		496B97D124858A7C003613FA /* UILabel+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97D024858A7C003613FA /* UILabel+Helper.swift */; };
 		496B97D32485A759003613FA /* StatusNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97D22485A759003613FA /* StatusNavigationController.swift */; };
+		496B97D52485D057003613FA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B97D42485D056003613FA /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		496B97CE24858A1F003613FA /* UIStackView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Helper.swift"; sourceTree = "<group>"; };
 		496B97D024858A7C003613FA /* UILabel+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Helper.swift"; sourceTree = "<group>"; };
 		496B97D22485A759003613FA /* StatusNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusNavigationController.swift; sourceTree = "<group>"; };
+		496B97D42485D056003613FA /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				496B97CA24857D29003613FA /* UIImage+Helper.swift */,
 				496B97CE24858A1F003613FA /* UIStackView+Helper.swift */,
 				496B97D024858A7C003613FA /* UILabel+Helper.swift */,
+				496B97D42485D056003613FA /* CustomCell.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				496B97BB2485114E003613FA /* UIKit+CrossDisolveAnimations.swift in Sources */,
 				496B97B22485046D003613FA /* Font.swift in Sources */,
 				496B97A324844544003613FA /* OnboardingIntroView.swift in Sources */,
+				496B97D52485D057003613FA /* CustomCell.swift in Sources */,
 				496B978524842907003613FA /* AppDelegate.swift in Sources */,
 				496B97AE24847203003613FA /* TracingPermissionViewController.swift in Sources */,
 				496B97C92485519B003613FA /* StatusHeaderView.swift in Sources */,
